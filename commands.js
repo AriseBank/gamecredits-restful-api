@@ -1,8 +1,8 @@
-// Zcash Restful API For aOS Sunshine 
+// GameCredits Restful API For aOS Sunshine 
 // File: commands.js
 // Author: Jared Rice Sr. 
 // Organization: AriseBank (AriseLabs) [https://arisebank.com] [https://developers.arisebank.com]
-// This file contains the normal Zcash API endpoints, as defined at https://labs.arisebank.com/crypto-tools/bf-api/
+// This file contains the normal GameCredits API endpoints, as defined at https://labs.arisebank.com/crypto-tools/bf-api/
 // These API endpoints could change for Bitcoin, Litecoin, Dogecoin and other coins who update along with Bitcoin's updates.
 // Less popular coins may not update. You can stay up to date with Bitcoin-related API changes here: https://labs.arisebank.com/crypto-tools/bf-api/ 
 
