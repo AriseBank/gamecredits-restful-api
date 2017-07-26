@@ -1,17 +1,17 @@
-# Zcash Restful API 
+# GameCredits Restful API 
 
 ![](https://arisebank.com/public-images/sunrise.png)
 
-The unofficial, yet so official, Zcash Restful API for zcashd.
+The unofficial, yet so official, GameCredits Restful API for gamecreditsd.
 Built and released by AriseLabs, the developers behind AriseBank. 
 
 ## Test It For Yourself (With CURL)
 ```
-curl -X GET http://zcash-api.arisebank.net/aos/get_info
+curl -X GET http://gamecredits-api.arisebank.net/aos/get_info
 ```
 ## Test It For Yourself (Over HTTP)
 ```
-http://zcash-api.arisebank.net/aos/get_info
+http://gamecredits-api.arisebank.net/aos/get_info
 ```
 
 ## Usage
@@ -99,22 +99,22 @@ Here's a non-exhaustive list of the available endpoints.
 
 ### Prerequisites
 
-You need to have a `zcashd` installation that the API can talk to. You can easily install Zcash's core files using our EasyCoin Installer (Bitcoin Family Version) [here](http://lab.arisebank.com/crypto-tools/easycoin-btc/blob/master/easycoin-btc-v0.1.6.sh), with one line and no headaches.
+You need to have a `gamecreditsd` installation that the API can talk to. You can easily install GameCredits's core files using our EasyCoin Installer (Bitcoin Family Version) [here](http://lab.arisebank.com/crypto-tools/easycoin-btc/blob/master/easycoin-btc-v0.1.6.sh), with one line and no headaches.
 
 ### Development or Production Deployment 
 
 Note: For development or production deployment, we recommend doing a git clone from our AriseLabs repository. You can also clone from GitHub, but our Labs may update before GitHub, between the time you install and the time the update is mirrored from our servers back to GitHub. 
 
 ```
-git clone http://lab.arisebank.com/zcash/zcash-sunrise-api.git
-cd zcash-sunrise-api
+git clone http://lab.arisebank.com/gamecredits/gamecredits-sunrise-api.git
+cd gamecredits-sunrise-api
 npm install
 cp .env.example .env
 ```
 
-Edit the contents of `.env` to match your local Zcash install and your application's dedicated IP address
+Edit the contents of `.env` to match your local GameCredits install and your application's dedicated IP address
 
-### Start Your Zcash Restful API Server
+### Start Your GameCredits Restful API Server
 ```
 node app.js
 ```
