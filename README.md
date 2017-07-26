@@ -16,7 +16,7 @@ http://gamecredits-api.arisebank.net/aos/get_info
 
 ## Usage
 
-The endpoints follow closely with the cli command list [here](http://labs.arisebank.com/crypto-tools/bf-api/). 
+The endpoints follow closely with the cli command list [here](http://lab.arisebank.com/crypto-tools/bf-api/). 
 They are structured like so.
 
 /aos/:command?args=optional,arguments,seperated,by,comma
